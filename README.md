@@ -2,6 +2,7 @@
 Tip Calculator in Swift
 
 How many hours did it take to complete? 4 
+
 Which required and optional stories have you completed? 
 All required, and Optional:
 * Change the colors and fonts of the views 
