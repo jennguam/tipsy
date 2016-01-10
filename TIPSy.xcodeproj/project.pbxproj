@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE43C8991C41E7EB0032EA58 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE43C8981C41E7EB0032EA58 /* Launch Screen.storyboard */; };
 		AEE15DB41C3E48AB003FC667 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE15DB31C3E48AB003FC667 /* AppDelegate.swift */; };
 		AEE15DB61C3E48AB003FC667 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE15DB51C3E48AB003FC667 /* ViewController.swift */; };
 		AEE15DB91C3E48AB003FC667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE15DB71C3E48AB003FC667 /* Main.storyboard */; };
 		AEE15DBB1C3E48AB003FC667 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEE15DBA1C3E48AB003FC667 /* Assets.xcassets */; };
-		AEE15DBE1C3E48AB003FC667 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEE15DBC1C3E48AB003FC667 /* LaunchScreen.storyboard */; };
 		AEE15DC91C3E48AB003FC667 /* TIPSyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE15DC81C3E48AB003FC667 /* TIPSyTests.swift */; };
 		AEE15DD41C3E48AB003FC667 /* TIPSyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE15DD31C3E48AB003FC667 /* TIPSyUITests.swift */; };
 /* End PBXBuildFile section */
@@ -34,12 +34,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE43C8981C41E7EB0032EA58 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		AEE15DB01C3E48AB003FC667 /* TIPSy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TIPSy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE15DB31C3E48AB003FC667 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEE15DB51C3E48AB003FC667 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AEE15DB81C3E48AB003FC667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AEE15DBA1C3E48AB003FC667 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AEE15DBD1C3E48AB003FC667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEE15DBF1C3E48AB003FC667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEE15DC41C3E48AB003FC667 /* TIPSyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TIPSyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE15DC81C3E48AB003FC667 /* TIPSyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TIPSyTests.swift; sourceTree = "<group>"; };
@@ -100,8 +100,8 @@
 				AEE15DB31C3E48AB003FC667 /* AppDelegate.swift */,
 				AEE15DB51C3E48AB003FC667 /* ViewController.swift */,
 				AEE15DB71C3E48AB003FC667 /* Main.storyboard */,
+				AE43C8981C41E7EB0032EA58 /* Launch Screen.storyboard */,
 				AEE15DBA1C3E48AB003FC667 /* Assets.xcassets */,
-				AEE15DBC1C3E48AB003FC667 /* LaunchScreen.storyboard */,
 				AEE15DBF1C3E48AB003FC667 /* Info.plist */,
 			);
 			path = TIPSy;
@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					AEE15DAF1C3E48AA003FC667 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = S4ETW8LQG4;
 					};
 					AEE15DC31C3E48AB003FC667 = {
 						CreatedOnToolsVersion = 7.2;
@@ -229,7 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEE15DBE1C3E48AB003FC667 /* LaunchScreen.storyboard in Resources */,
+				AE43C8991C41E7EB0032EA58 /* Launch Screen.storyboard in Resources */,
 				AEE15DBB1C3E48AB003FC667 /* Assets.xcassets in Resources */,
 				AEE15DB91C3E48AB003FC667 /* Main.storyboard in Resources */,
 			);
@@ -299,14 +300,6 @@
 				AEE15DB81C3E48AB003FC667 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AEE15DBC1C3E48AB003FC667 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AEE15DBD1C3E48AB003FC667 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -399,10 +392,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TIPSy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jenn.TIPSy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -410,10 +407,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TIPSy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jenn.TIPSy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -484,6 +485,7 @@
 				AEE15DDA1C3E48AB003FC667 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEE15DDB1C3E48AB003FC667 /* Build configuration list for PBXNativeTarget "TIPSyTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +494,7 @@
 				AEE15DDD1C3E48AB003FC667 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEE15DDE1C3E48AB003FC667 /* Build configuration list for PBXNativeTarget "TIPSyUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +503,7 @@
 				AEE15DE01C3E48AB003FC667 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
